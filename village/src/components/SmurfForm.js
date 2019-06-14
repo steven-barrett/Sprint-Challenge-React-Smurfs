@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import '../App.css';
 class SmurfForm extends Component {
   constructor(props) {
     super(props);
@@ -40,7 +40,6 @@ class SmurfForm extends Component {
         [ev.target.name]: value
       }
     }));
-// this.setState({ [e.target.name]: e.target.value });
   };
 
   render() {

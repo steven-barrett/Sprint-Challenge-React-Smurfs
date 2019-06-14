@@ -3,6 +3,7 @@
   background-image: url('./Images/2630512-smurfs-the-lost-village-4k-windows-wallpaper.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100%;
 }
 
 h1 {
@@ -25,6 +26,8 @@ h1 {
   
 }
 
-ul {
+
+.SmurfForm {
+  height: 100%;
   
 }

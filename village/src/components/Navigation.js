@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import './Navigation.css';
 
@@ -13,14 +13,14 @@ const Navigation = () => {
     <div>
       <div className="nav-bar">        
         <div className='link-div'>
-          <Link style={linkStyles} to="/">
+          <NavLink style={linkStyles} to="/">
             Home
-          </Link>
+          </NavLink>
         </div>
         <div className='link-div'>
-          <Link style={linkStyles} to="/smurf-form">
+          <NavLink style={linkStyles} to="/smurf-form">
             Add Smurf
-          </Link>
+          </NavLink>
         </div>
       </div>
     </div>
