@@ -1,3 +1,33 @@
-.App {
+.App {  
   text-align: center;
+  background-image: url('./Images/2630512-smurfs-the-lost-village-4k-windows-wallpaper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+h1 {
+  color:linear-gradient(rgb(12, 141, 184), white);
+  
+}
+
+.Smurf {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  position: relative;
+  background-image: linear-gradient(rgb(12, 141, 184), white);
+  border-radius: 4px;
+  height: 200px;
+  margin: 8px;
+  padding: 16px;
+  width: 120px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  
+}
+
+
+.SmurfForm {
+  height: 100%;
+  
 }

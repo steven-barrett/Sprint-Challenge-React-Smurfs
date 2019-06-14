@@ -1,0 +1,10 @@
+.nav-bar { 
+ align-content: center;
+ background-color: rgb(163, 164, 238);
+ padding-top: 1px;
+ 
+}
+.link-div {
+    display: inline-block;
+    text-align: center;
+}
